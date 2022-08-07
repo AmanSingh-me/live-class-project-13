@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+/* header */
+
+header {
+  background-color: #7030cc;
+  color: #ffffff;
+}
+li {
+  list-style-type: none;
+}
+
+nav,
+.list,
+.header12,
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  padding: 30px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.list-item {
+  color: #ede5f9;
+  margin: 0 1em;
+  padding: 2px;
+}
+
+button {
+  border: none;
+  background-color: #1bbcef;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 3em;
+  padding: 1em 2.5em;
+  cursor: pointer;
+}
+
+.header12 {
+  padding: 1em 2em;
+  justify-content: space-between;
+}
+.header12 > div > img {
+  width: 100%;
+}
+
+.header12 h1 {
+  font-size: 3em;
+  padding: 0.5em 0;
+}
+
+.header12 p {
+  color: #c3c5c7;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+/* Section */
+
+.section-11 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+.image img {
+  width: 100%;
+}
+
+.features {
+  width: 30%;
+}
+
+.features h2 {
+  padding: 1em 0;
+}
+
+.feature-list-item h4 {
+  font-size: large;
+  padding: 1em 0;
+}
+
+.feature-list-item p {
+  font-size: small;
+  padding: 0 1.8em;
+}
+h4 > img {
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.section-12 > h2 {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.card-container {
+  justify-content: space-evenly;
+  margin: 1em 0;
+  padding: 1em 2em;
+  flex-wrap: wrap;
+}
+
+.cards {
+  width: 20%;
+  border-radius: 2em;
+  box-shadow: 4px 4px 6px #c0c0c0;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1.8em;
+}
+.cards img {
+  width: 50%;
+}
+.cards div:first-child {
+  background-color: #faeaeb;
+  padding: 2em 0;
+  border-radius: 50%;
+  display: inline-block;
+  width: 60%;
+}
+.cards div:last-child{
+  background-color: #66BFBF;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+.cards > div > h3 {
+  padding: 10px 0;
+  margin-top: 1em;
+}
+.cards > div > p {
+  font-size: small;
+  padding: 1em;
+  padding-top: 0;
+}
