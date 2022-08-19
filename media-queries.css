@@ -1,0 +1,80 @@
+@media screen and (max-width:992px) {
+    nav{
+        padding: 15px;
+    }
+    nav .list button{
+        margin-left: .6em;
+        padding: 1em ;
+    }
+    .header12{
+        flex-direction: column-reverse;
+    }
+    .section-11{
+        flex-direction: column;
+    }
+    .header12 > div, .section-11 > div{
+        width: 100%;
+        text-align: center;
+        padding: 1em 3em;
+    }
+    .features h2,.section-12 > h2{
+        font-size: 2em;
+    }
+    .feature-list-item h4{
+       font-size: 1.5em; 
+    }
+    .card-container{
+        padding: 1em;
+    }
+    .cards{
+        width: 24%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .list li{
+        display: none;
+    }
+    .list button{
+        margin: 0;
+        padding:.6em 1em;
+    }
+    .cards{
+        width: 32%;
+    }
+    .cards > div > p{
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:576px) {
+    nav .logo{
+        width: 50%;
+    }
+    .header12{
+        padding: 0;
+    }
+    .header12 > div,.section-11{
+        padding: 0;
+    }
+    .header12 > div > h1{
+        font-size: 2.2em;
+    }
+    .features{
+        padding: 0;
+    }
+    .cards{
+        width: 45%;
+    }
+}
+@media screen and (max-width:480px) {
+    nav{
+        padding:15px 10px;
+    }
+    .card-container{
+        padding: 0;
+    }
+    .cards{
+        width: 60%;
+    }
+}

@@ -6,4 +6,4 @@
 
 ### [Live Link](https://live-class-project-13.vercel.app/)
 
-**Project is not responsive**
+**Project is responsive**

@@ -53,6 +53,9 @@ button {
   padding: 1em 2em;
   justify-content: space-between;
 }
+.header12 > div{
+  width: 50%;
+}
 .header12 > div > img {
   width: 100%;
 }
@@ -110,6 +113,7 @@ h4 > img {
 
 .card-container {
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin: 1em 0;
   padding: 1em 2em;
   flex-wrap: wrap;
@@ -121,6 +125,7 @@ h4 > img {
   box-shadow: 4px 4px 6px #c0c0c0;
   color: #ffffff;
   text-align: center;
+  margin: 1em;
   padding-top: 1.8em;
 }
 .cards img {
